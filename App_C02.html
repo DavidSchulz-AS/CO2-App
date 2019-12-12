@@ -1,8 +1,7 @@
 <!--Content für CO2 Calculator-->
-
+<link rel="stylesheet" href="Style_CO2_App.css">
 <form>
-    <font color = darkblue>
-    <h1>CO2 Calculator</h1>
+    <h1 class="colormix1 Breite pd_large"> <center>CO2 Calculator</center> </h1>
 
     <img 
     src="Schiff.PNG" 
@@ -12,30 +11,40 @@
     <br>
     <br>
 
-    <label for="Kilometer">km</label>
-    <input type="text" id="Kilometer">
+    <label for="Kilometer">Please type in distance:</label>
+    <input class="Border1" type="text" id="Kilometer">
 
     
     <label for="Vihicle"></label>
-    <select id="Vihicle">
+    <select class="colormix2" id="Vihicle">
 
-        <option value="Zug">Zug</option>
-        <option value="Schiff">Schiff</option>
-        <option value="Auto">Auto</option>
-        <option value="Fahrrad">Fahrrad</option>
-        <option value="Flugzeug">Flugzeug</option>
+        <option value="Train">Train</option>
+        <option value="Ship">Ship</option>
+        <option value="Car">Car</option>
+        <option value="Bycicle">Bycicle</option>
+        <option value="Plane">Plane</option>
 
     </select>
 
     <br>
     <br>
 
-    <ul>
-       <li>x km mit Zug</li>
-       <li>y km mit Fahrrad</li>
-       <li><b>n total km</b></li>
-    </ul>
-    
+    <table class="tablestyle">
+        <tr><th>Kilometer</th> <th>Vihicle</th> <th>CO2 emission</th></tr>
+        <tr><td>45 km</td> <td>Train</td> <td>3375g</td> </tr>
+        <tr><td>102 km</td> <td>Ship</td> <td>10000g</td> </tr>
+        <tr><td>102 km</td> <td>Ship</td> <td>10000g</td> </tr>
+       
+       
+        
+                
+
+
+    </table>
+
+<br>
+<br>
+    <button>Button1</button>
 
 
 

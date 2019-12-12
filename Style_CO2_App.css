@@ -1,0 +1,31 @@
+
+
+/* Farbkombinationen */
+.colormix1 {background: rgb(0, 0, 255);
+            color: white;
+}
+.colormix2 {background: rgb(0, 0, 255);
+            color: white;
+}
+/* Margins */
+.mg_large {margin: 20px;}
+.mg_small {margin: 5px;}
+.pd_large {padding: 20px;}
+.pd_small {padding: 5px;}
+
+.Breite {width: auto;}
+
+/* Schriftart = font-family */
+
+/* Rahmen */
+
+.Border1 {
+    border-color: rgb(0,0, 255);
+    border-width: 0,1cm;
+}
+
+.tablestyle {
+    border: rgb(0,0, 255);
+    border-width: 0,1cm;
+}
+
